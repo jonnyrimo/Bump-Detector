@@ -1,14 +1,14 @@
 # What is
-The project aims to detect bumps occurring on an A4 grid paper sheet.
+The project aims to detect bumps occurring on a clear surface, by analysing the line of the grid printed on top of the surface.
 
 # How to run the code
-Clone the repo and draw a grid like the one depicted in the image:
+Clone this repo and run the code. You will need to use a grid similar to this one:
 
 ![The grid](grid_no_bump.png)
 
-Then, align the blue lines on the frame to the lateral lines of the grid. The important aspect is that they have similar angular coefficient (they are parallel).
+Once you start the code, align the two blue lines to the lateral lines of the grid. For the correct use of this method, it's important that the blue lines are parallel to the (vertical) external edges of the grid.
 
 # The output
-When a bump occurs, the frame will highlight its location by highlighting in red the part of the grid that contains it. 
+When a bump occurs, the frame will highlight its location by drawing red lines on its detected position. 
 
 ![A bump highlighted in red](grid_with_bump.png)
